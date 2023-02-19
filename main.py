@@ -27,12 +27,15 @@ def find_mismatch(text):
 
 
 def main():
+    choice =input()
     text = input()
     mismatch = find_mismatch(text)
+    choice.upper()
      # Printing answer, write your code here
-    result = find_mismatch(text)
-    print(result)
-
+     if choice == "I"
+     print(mismatch)
+     else:
+        print(mismatch)
 
 if __name__ == "__main__":
     main()
