@@ -25,6 +25,10 @@ def find_mismatch(text):
 
 
 def main():
+     if choice == "I":
+        print(mismatch)
+    else:
+        print(mismatch)
     text = input()
     result = find_mismatch(text)
     print(result)
