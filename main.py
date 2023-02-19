@@ -25,7 +25,6 @@ def find_mismatch(text):
     else:
         return opening_brackets_stack[-1].position
 
-
 def main():
     choice =input()
     text = input()
